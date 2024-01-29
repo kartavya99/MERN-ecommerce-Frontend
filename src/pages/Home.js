@@ -1,16 +1,17 @@
+import { Link } from "react-router-dom";
 import NavBar from "../features/navbar/Navbar";
-import ProductDetail from "../features/product/components/ProductDetail";
+import ProductList from "../features/product/components/ProductList";
 import Footer from "../features/common/Footer";
 
-function ProductDetailPage() {
+function Home() {
     return ( 
         <div>
             <NavBar>
-                <ProductDetail></ProductDetail>
+                <ProductList></ProductList>
             </NavBar>
             <Footer></Footer>
         </div>
      );
 }
 
-export default ProductDetailPage;
+export default Home;

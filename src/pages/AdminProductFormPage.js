@@ -1,14 +1,13 @@
-import React from "react";
-import Navbar from "../features/navbar/Navbar";
 import ProductForm from "../features/admin/components/ProductForm";
+import NavBar from "../features/navbar/Navbar";
+function AdminProductFormPage() {
+    return ( 
+        <div>
+            <NavBar>
+                <ProductForm></ProductForm>
+            </NavBar>
+        </div>
+     );
+}
 
-const AdminProductFormPage = () => {
-  return (
-    <div>
-      <Navbar>
-        <ProductForm />
-      </Navbar>
-    </div>
-  );
-};
 export default AdminProductFormPage;

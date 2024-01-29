@@ -1,3 +1,6 @@
+
+
+
 .Stripe form {
   width: 30vw;
   min-width: 500px;
@@ -70,7 +73,7 @@
 .spinner:before,
 .spinner:after {
   position: absolute;
-  content: "";
+  content: '';
 }
 
 .spinner:before {

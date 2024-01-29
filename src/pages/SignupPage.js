@@ -1,12 +1,11 @@
-import React from "react";
-import Singup from "../features/auth/components/Singup";
+import Signup from "../features/auth/components/Signup";
 
-const SignupPage = () => {
-  return (
-    <div>
-      <Singup></Singup>
-    </div>
-  );
-};
+function SignupPage() {
+    return ( 
+        <div>
+            <Signup></Signup>
+        </div>
+     );
+}
 
 export default SignupPage;

@@ -1,15 +1,13 @@
-import React from "react";
-import Navbar from "../features/navbar/Navbar";
 import AdminProductDetail from "../features/admin/components/AdminProductDetail";
-
-const AdminProductDetailPage = () => {
-  return (
-    <div>
-      <Navbar>
-        <AdminProductDetail />
-      </Navbar>
-    </div>
-  );
-};
+import NavBar from "../features/navbar/Navbar";
+function AdminProductDetailPage() {
+    return ( 
+        <div>
+            <NavBar>
+                <AdminProductDetail></AdminProductDetail>
+            </NavBar>
+        </div>
+     );
+}
 
 export default AdminProductDetailPage;
